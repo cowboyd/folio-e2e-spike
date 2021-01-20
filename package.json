@@ -1,0 +1,15 @@
+{
+  "name": "@folio/e2e",
+  "version": "1.0.0",
+  "description": "End to End Spike",
+  "main": "index.js",
+  "scripts": {
+    "test": "bigtest test"
+  },
+  "author": "Charles Lowell <cowboyd@frontside.io>",
+  "license": "ISC",
+  "devDependencies": {
+    "@folio/stripes-testing": "folio-org/stripes-testing#new-bigtest-interactors",
+    "bigtest": "^0.7.0"
+  }
+}
